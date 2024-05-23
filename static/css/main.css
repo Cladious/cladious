@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(180deg, #2a2a2b, #4a0f11);
+    color: white;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,.75);
+}
+.search-box {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+.form-control {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    color: white;
+}
+.form-select {
+    background-color: rgba(255,255,255,0.1);
+    border: none;
+    color: grey;
+}
+.search-input {
+    background: transparent;
+    border: 1px solid #ccc;
+    color: white;
+}
+.search-input:focus {
+    background: transparent;
+    color: white;
+}
+.btn-search {
+    background-color: #0062cc;
+    border-color: #005cbf;
+}
+.btn-search:hover {
+    background-color: #005cbf;
+    border-color: #004085;
+}
+.crypto-logo {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
